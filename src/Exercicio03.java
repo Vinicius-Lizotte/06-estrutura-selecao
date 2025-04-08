@@ -19,9 +19,9 @@ public class Exercicio03 {
 
         gv_desconto = gv_totalcompra - gv_economizado;
 
-        System.out.println("------------------------");
+        System.out.println("-------------------------");
         System.out.println("Valor Final R$" + df.format(gv_desconto));
         System.out.println("Valor Economizado R$" + df.format(gv_economizado));
-        System.out.println("------------------------");
+        System.out.println("-------------------------");
     }
 }
